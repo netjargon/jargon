@@ -1,0 +1,18 @@
+header { text-align: center;
+    border:20px, blue;
+    color: red;
+    font-weight: bold;
+    font-size: 20pt;
+    
+}
+
+h3 {color: blue;
+    text-align: left;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+/* Below this line is the code taken from pingdown website*/
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AWS Beetle Dashboard</title>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.2.35.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script type="text/javascript">
+  	    
+    </script>
+
+<script src="scripts/app.js"></script>
+<link rel="stylesheet" type="text/css" href="style/index.css">
+</head>    
+   <body> I hope this Works!
+   <header>AWS Beetle Dashboard</header>         
+   <h3 id="servers" name="servers">Server Name</h3>
+   
+   <h3 id="serverstats" name="serverstats">Server Stats</h3>
+   
+   <h3 id="services" name="services">Services</h3>
+   
+   <!-- The below code is to test a sample from AWS and use it once confirmed it works successfully, with a few custom modifications. -->
+   
+   
+<div id="status"></div>
+
+<ul id="objects"></ul>
+
+<ul id="iconLegend">
+    <li title="99.90% uptime or better (less than 2m of downtime)"><span class="iconSmall green"></span>Service is operating normally</li>
+    <li title="99.89&ndash;98.00% uptime (between 2m and 29m of downtime)"><span class="iconSmall yellow"></span>Service disruption</li>
+    <li title="Less than 98.00% uptime (more than 29 minutes of downtime)"><span class="iconSmall red"></span>Service outage</li>
+    <li title="Unmonitored"><span class="iconSmall grey"></span>No data available</li>
+</ul>
+
+
+   </body>
+</html>
+    
